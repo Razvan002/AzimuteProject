@@ -4,12 +4,11 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.openqa.selenium.By;
+import stepsDefinition.InitializareDriver.InitializareDriver;
 
 import static java.lang.Thread.sleep;
 
 public class Login {
-
-
     @Given("Deschidem pagina de web San Marco pentru login")
     public void deschidemPaginaDeWebSanMarco() throws InterruptedException {
         InitializareDriver.setup("https://www.pizzasanmarco.ro/");

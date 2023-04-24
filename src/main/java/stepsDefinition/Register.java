@@ -4,6 +4,7 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.openqa.selenium.By;
+import stepsDefinition.InitializareDriver.InitializareDriver;
 
 import static java.lang.Thread.sleep;
 
