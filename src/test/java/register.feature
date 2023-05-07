@@ -13,6 +13,6 @@ Feature: Testare a butonului de inregistrare
     Then Acceptam Politica de confidentialitate pentru cont nou
     And Apasam pe butonul Inregistrare
 
-  Scenario: Ai deja cont? Log in aici
+  Scenario: "Ai deja cont? Log in aici"
     Then Click the Register button
     And Click pe butonul ai deja cont

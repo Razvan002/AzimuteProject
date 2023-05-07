@@ -10,7 +10,7 @@ Feature: Testing the login button
     Then Acceptam Politica de confidentialitate
     And Apasam pe butonul Log In
 
-  Scenario: Ai uitat parola? Click aici
+  Scenario: "Ai uitat parola? Click aici"
     Then Click the Login button
     And Click pe butonul de recuperare
     And Introducem email-ul "unemail@yahoo.com" pentru recuperare
