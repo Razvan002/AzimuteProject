@@ -5,10 +5,10 @@ Feature: Testare a butonului de inregistrare
 
   Scenario: Register de pe pagina principala
     Then Click the Register button
-    And Introducem "name": "Gradea"
-    And Introducem "prenume": "Razvan"
-    And Introducem "email": "unemail@yahoo.com"
-    And Introducem numarul de "telefon": "0755803088"
+    And Introducem "name": "nume2"
+    And Introducem "prenume": "prenume2"
+    And Introducem "email": "claudiugradea@yahoo.com"
+    And Introducem numarul de "telefon": "0736019777"
     And Introducem "password": "123456"
     Then Acceptam Politica de confidentialitate pentru cont nou
     And Apasam pe butonul Inregistrare

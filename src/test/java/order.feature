@@ -16,6 +16,6 @@ Feature: Testarea comenzilor si plasarea acestora
       And Completam "telefon": "0755803088"
       And Introducem strada
       And Completam "nrstrada": "15"
-      And Completam "repere": "Masina shmekera in fata casei"
+      And Completam "repere": "Masina verde in fata casei"
       And Alegem metoda de plata
 

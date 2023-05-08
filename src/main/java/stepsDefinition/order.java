@@ -57,7 +57,7 @@ public class order {
         sleep(1000);
         InitializareDriver.getDriver().findElement(By.xpath("//*[@placeholder='Detalii (Bloc, Scara, Etaj, Apartament)']")).sendKeys("Casa galbena");
         sleep(1000);
-        InitializareDriver.getDriver().findElement(By.xpath("//*[@class='faracont-livrare-repere']")).sendKeys("Masina shmekera in fata casei :))");
+        InitializareDriver.getDriver().findElement(By.xpath("//*[@class='faracont-livrare-repere']")).sendKeys("Masina verde in fata casei :))");
         sleep(1000);
         InitializareDriver.getDriver().findElement(By.xpath("//input[@value='2']")).click();
         sleep(3000);
