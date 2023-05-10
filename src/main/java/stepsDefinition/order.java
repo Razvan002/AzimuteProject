@@ -19,19 +19,19 @@ public class order {
     @Then("Click pe butonul {string}")
     public void clickPeButonulDeserturi(String arg) throws InterruptedException{
         InitializareDriver.getDriver().findElement(By.xpath("//*[@href='"+arg+"']")).click();
-        sleep(1000);
+        sleep(2000);
     }
 
     @And("Click pe butonul de adaugat in cos")
     public void clickPeButonulDeAdaugatInCos() throws InterruptedException{
         InitializareDriver.getDriver().findElement(By.xpath("//div[text()='17.50 lei']")).click();
-        sleep(1000);
+        sleep(2000);
     }
 
     @And("Click pe cos de produse")
     public void clickPeCosDeProduse() throws InterruptedException{
         InitializareDriver.getDriver().findElement(By.xpath("//*[@id='total_pret']")).click();
-        sleep(1000);
+        sleep(2000);
     }
 
     @And("Completam detaliile necesare")
@@ -66,9 +66,9 @@ public class order {
     public void clickPeDateLivrare() throws InterruptedException{
         JavascriptExecutor js = (JavascriptExecutor) InitializareDriver.getDriver();
         js.executeScript("window.scrollBy(0,1500)", "");
-        sleep(1000);
+        sleep(2000);
         InitializareDriver.getDriver().findElement(By.xpath("//*[@name='date-livrare']")).click();
-        sleep(1000);
+        sleep(2000);
     }
 
     //<------------- Datele necesare ------------->

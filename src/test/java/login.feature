@@ -6,7 +6,7 @@ Feature: Testing the login button
   Scenario: Login de pe pagina principala
     Then Click the Login button
     And Introducem email: "gradea.razvan03@gmail.com"
-    And Introducem parola: "123456"
+    And Introducem parola: "onezfz"
     Then Acceptam Politica de confidentialitate
     And Apasam pe butonul Log In
 
